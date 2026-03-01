@@ -1,4 +1,3 @@
-/* 1. Contenedor Principal (Tarjeta blanca) */
 .form-container {
     background: white;
     padding: 30px; 
@@ -6,10 +5,9 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     width: 100%;
     max-width: 400px;
-    box-sizing: border-box; /* Crucial para que nada se salga de la margen */
+    box-sizing: border-box;
 }
 
-/* 2. Estilo para los Títulos */
 h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -17,8 +15,6 @@ h2 {
     font-weight: 600;
 }
 
-/* 3. Etiquetas (Labels) */
-/* Les damos un estilo limpio para que acompañen al calendario y los inputs */
 label {
     display: block;
     font-size: 13px;
@@ -29,24 +25,21 @@ label {
     text-align: left;
 }
 
-/* 4. Inputs y Botón (Alineación perfecta) */
-/* Agregamos type="date" para que el calendario herede el mismo diseño */
 input[type="text"],
 input[type="number"],
 input[type="date"],
 button {
-    width: 100%; /* Todos ocupan el mismo ancho disponible */
+    width: 100%; 
     padding: 12px;
-    margin-bottom: 15px; /* Espacio uniforme entre cuadros */
+    margin-bottom: 15px; 
     border-radius: 8px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* Mantiene el contenido dentro de la margen */
+    box-sizing: border-box; 
     display: block;
-    font-family: inherit; /* Usa la fuente del sistema */
+    font-family: inherit; 
     font-size: 14px;
 }
 
-/* 5. Estilo específico para el Botón */
 button {
     background: #4e73df;
     color: white;
@@ -60,12 +53,10 @@ button {
 
 button:hover {
     background: #2e59d9;
-    transform: translateY(-1px); /* Efecto sutil de levantado */
+    transform: translateY(-1px); 
 }
-
-/* 6. Ajuste para el foco (cuando haces clic en un cuadro) */
 input:focus {
     outline: none;
-    border-color: #1cc88a; /* Cambia a verde al escribir */
+    border-color: #1cc88a;
     box-shadow: 0 0 5px rgba(28, 200, 138, 0.2);
 }

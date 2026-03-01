@@ -31,7 +31,6 @@
             color: #4e73df;
         }
 
-        /* Estilo para las etiquetas de los campos */
         label {
             display: block;
             font-size: 13px;
